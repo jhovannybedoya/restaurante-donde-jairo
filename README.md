@@ -1,4 +1,5 @@
-Developed by JAL
-for the andro cafeteria
+Developed by jbr
+for the restaurant donde jairo
+it was created in react with reusable and standalone styles
 
-(Johnner Gambacica)
+(jhovanny bedoya)
