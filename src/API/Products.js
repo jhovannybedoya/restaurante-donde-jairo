@@ -9,7 +9,7 @@ import Calentado from "../API/Imagenes/calentado.png";
 const PRODUCTS = {
   general: [
     {
-      id: "gen4",
+      id: "gen5",
       name: "Menu",
       category: "all",
       styles: {
@@ -51,7 +51,7 @@ const PRODUCTS = {
   ],
   all: [ 
   {
-    id: "carne",
+    id: "carne1",
     name: "carne a la plancha",
     description: "Posta de carne de cerdo o res con patacon o con papitas",
     cost: 12000,
@@ -60,7 +60,7 @@ const PRODUCTS = {
   }
 },
 {
-  id: "Carne asada",
+  id: "Carne asada1",
   name: "carne asada",
   description: "Pizza con jamon, queso y piña",
   cost: 12000,
@@ -69,7 +69,7 @@ const PRODUCTS = {
   }
   }, 
   {
-    id: "calentado",
+    id: "calentado1",
     name: "calentado",
     description: "calentado con huevo",
     cost: 7000,
@@ -78,7 +78,7 @@ const PRODUCTS = {
     }
   },
   {
-    id: "calentado2",
+    id: "calentado21",
     name: "desayuno",
     description: "calentado con huevo",
     cost: 7000,
@@ -87,7 +87,7 @@ const PRODUCTS = {
     }
   },
   {
-    id: "menu del dia",
+    id: "menu del dia1",
     name: "menu del dia",
     description: "(divercidad de alimentos)",
     cost: 12000,
