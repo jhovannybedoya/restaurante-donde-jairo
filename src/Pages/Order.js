@@ -42,11 +42,11 @@ function Order() {
       descripcion: ${item.description}//
     `);
   });
+  console.log(shoppingList)
 
   const MESSAGE = `Nuevo pedido:
   
-  ${request.join(`
-  `)}
+  ${request.join(``)}
   `;
 
   return (

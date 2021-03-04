@@ -62,8 +62,8 @@ function MenuStyle(props) {
       <footer>
 
         <div className="networks">
-         <p>Visítanos: Campestres calle principal </p>
-         <p>Telefonos: 3023871154- 3202806999 </p>
+         <p>Visítanos: nueva colonia calle principal </p>
+         <p>Telefonos: 3207501413 </p>
        </div>  
 
         {/* <div className="networks">
