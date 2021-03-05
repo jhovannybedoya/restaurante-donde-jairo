@@ -33,7 +33,7 @@ function Order() {
     total += item.cost * values[idx];
   });
 
-  const PHONE = 573006368229;
+  const PHONE = 573207501413;
   const request = [];
 
   shoppingList.forEach((item, idx) => {
@@ -42,7 +42,7 @@ function Order() {
       descripcion: ${item.description}//
     `);
   });
-  console.log(shoppingList)
+ 
 
   const MESSAGE = `Nuevo pedido:
   
