@@ -62,8 +62,8 @@ const PRODUCTS = {
 {
   id: "Carne asada1",
   name: "carne asada",
-  description: "Pizza con jamon, queso y piña",
-  cost: 12000,
+  description: "carne de cerdo ala plancha con patacon y ensalada",
+  cost: 14000,
   styles: {
     backgroundImage: `url('${Carne}')`
   }
@@ -72,7 +72,7 @@ const PRODUCTS = {
     id: "calentado1",
     name: "calentado",
     description: "calentado con huevo",
-    cost: 7000,
+    cost: 9000,
     styles: {
       backgroundImage: `url('${ Calentado }')`
     }
@@ -81,7 +81,7 @@ const PRODUCTS = {
     id: "calentado21",
     name: "desayuno",
     description: "calentado con huevo",
-    cost: 7000,
+    cost: 9000,
     styles: {
       backgroundImage: `url('${ Calentado }')`
     }
@@ -90,7 +90,7 @@ const PRODUCTS = {
     id: "menu del dia1",
     name: "menu del dia",
     description: "(divercidad de alimentos)",
-    cost: 12000,
+    cost: 10000,
     styles: {
       backgroundImage: `url('${ Almuerzo}')`
     }
@@ -102,7 +102,7 @@ const PRODUCTS = {
       id: "carne",
       name: "carne a la plancha",
       description: "Posta de carne de cerdo o res con patacon o con papitas",
-      cost: 12000,
+      cost: 14000,
       styles: {
         backgroundImage: `url('${Carne}')`
       }
@@ -111,11 +111,30 @@ const PRODUCTS = {
       id: "Carne asada",
       name: "carne asada",
       description: "Pizza con jamon, queso y piña",
-      cost: 12000,
+      cost: 14000,
       styles: {
       backgroundImage: `url('${Carne1}')`
       }
-    }
+    },
+    {
+      id: "jugo naturales",
+      name: "jugos",
+      description: "jugo naturales con leches o agua",
+      cost: 4000,
+      styles: {
+         backgroundImage: `url('${bebidas}')`
+       }
+     },
+     {
+      id: "micheladas",
+      name: "micheladas",
+      description: "micheladas en soda o en cervezas",
+      cost: 5000,
+      styles: {
+         backgroundImage: `url('${bebidas}')`
+       }
+     }
+
     
    ],
 
@@ -124,7 +143,7 @@ const PRODUCTS = {
       id: "calentado",
       name: "calentado",
       description: "calentado con huevo",
-      cost: 7000,
+      cost: 9000,
       styles: {
         backgroundImage: `url('${ Calentado }')`
       }
@@ -133,7 +152,7 @@ const PRODUCTS = {
       id: "calentado2",
       name: "desayuno",
       description: "calentado con huevo",
-      cost: 7000,
+      cost: 9000,
       styles: {
         backgroundImage: `url('${ Calentado }')`
       }
@@ -145,7 +164,7 @@ const PRODUCTS = {
       id: "menu del dia",
       name: "menu del dia",
       description: "(divercidad de alimentos)",
-      cost: 12000,
+      cost: 10000,
       styles: {
         backgroundImage: `url('${ Almuerzo}')`
       }
@@ -161,8 +180,21 @@ const PRODUCTS = {
       styles: {
          backgroundImage: `url('${bebidas}')`
        }
+     },
+     {
+      id: "micheladas",
+      name: "micheladas",
+      description: "micheladas en soda o en cervezas",
+      cost: 5000,
+      styles: {
+         backgroundImage: `url('${bebidas}')`
+       }
      }
+
+
+     
   ],
+  
 }
 
 export { PRODUCTS };
