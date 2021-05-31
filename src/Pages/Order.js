@@ -32,7 +32,7 @@ function Order() {
   shoppingList.forEach((item, idx) => {
     total += item.cost * values[idx];
   });
-
+//cambios de telefonos
   const PHONE = 573117423319;
   const request = [];
 
