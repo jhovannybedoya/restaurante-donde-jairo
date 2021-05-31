@@ -53,8 +53,8 @@ const PRODUCTS = {
   {
     id: "carne1",
     name: "carne a la plancha",
-    description: "Posta de carne de cerdo o res con patacon o con papitas",
-    cost: 12000,
+    description: "carne de res a la plancha con patacon y ensalada",
+    cost: 14000,
     styles: {
     backgroundImage: `url('${Carne}')`
   }
@@ -62,7 +62,7 @@ const PRODUCTS = {
 {
   id: "Carne asada1",
   name: "carne asada",
-  description: "carne de cerdo ala plancha con patacon y ensalada",
+  description: "carne de cerdo azada con patacon y ensalada",
   cost: 14000,
   styles: {
     backgroundImage: `url('${Carne}')`
@@ -101,7 +101,7 @@ const PRODUCTS = {
     {
       id: "carne",
       name: "carne a la plancha",
-      description: "Posta de carne de cerdo o res con patacon o con papitas",
+      description: "carne de res a la plancha con patacon y ensalada",
       cost: 14000,
       styles: {
         backgroundImage: `url('${Carne}')`
@@ -110,7 +110,7 @@ const PRODUCTS = {
     {
       id: "Carne asada",
       name: "carne asada",
-      description: "Pizza con jamon, queso y piña",
+      description: "carne de cerdo azada con patacon y ensalada",
       cost: 14000,
       styles: {
       backgroundImage: `url('${Carne1}')`
