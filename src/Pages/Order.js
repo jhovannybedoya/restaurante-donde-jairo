@@ -33,7 +33,7 @@ function Order() {
     total += item.cost * values[idx];
   });
 
-  const PHONE = 573207501413;
+  const PHONE = 573117423319;
   const request = [];
 
   shoppingList.forEach((item, idx) => {
